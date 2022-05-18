@@ -1,5 +1,8 @@
 package strategyPattern.demo3;
 
+import lombok.Setter;
+
+@Setter
 public abstract class Duck {
     protected FlyBehavior flyBehavior;
 
